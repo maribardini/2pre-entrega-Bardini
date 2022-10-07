@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+html {
+    font-family: 'Barlow', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    // __Inicio estilos tablet__
+    @media (min-width: 768px) {
+        bottom: 15px;
+        right: 15px;
+    }
+}

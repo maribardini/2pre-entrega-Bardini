@@ -1,0 +1,43 @@
+.galeria {
+    background-color: $light;
+    color: $primary;
+    padding: 160px 20px 20px 20px;
+    text-align: center;
+
+    h1 {
+        font-style: normal;
+        font-family: 'Barlow', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    &__img img {
+        width: 95%;
+        padding: 10px;
+        margin-left: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    // __Inicio estilos tablet__
+    @media (min-width: 768px) {
+        padding: 150px 20px 20px 20px;
+    }
+
+    // __Inicio estilos desktop__
+    @media (min-width: 992px) {
+        padding: 120px 25px 20px;
+
+        &__img {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 90px;
+            width: 95%;
+            display: grid;
+            grid-template-columns: 300px 300px 300px 300px;
+            grid-template-rows: 300px 300px 300px;
+            justify-content: space-evenly;
+        }
+    }
+}

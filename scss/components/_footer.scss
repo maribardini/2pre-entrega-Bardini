@@ -1,0 +1,22 @@
+.footer {
+    background-color: #E4E8E1;
+    font-style: normal;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1rem;
+    padding: 15px;
+
+    div {
+        padding: 3px;
+        display: flex;
+        justify-content: center;
+    }
+
+    // __Inicio estilos desktop__
+    @media (min-width: 992px) {
+        font-size: 1.5rem;
+
+        div {
+            padding: 3px 25px 3px 25px;
+        }
+    }
+}

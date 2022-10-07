@@ -1,0 +1,29 @@
+$orange: #f4640c;
+$brown: #893806;
+$orange-light: #f5b788;
+
+$primary: $brown;
+$secondary: $orange;
+$light: $orange-light;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "light": $light
+);
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+
+@import "./components/navbar";
+@import "./components/footer";
+@import "./components/reset";
+@import "./pages/index";
+@import "./pages/nosotros";
+@import "./pages/clases";
+@import "./pages/galeria";
+@import "./pages/contacto"

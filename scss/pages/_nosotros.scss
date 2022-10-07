@@ -1,0 +1,26 @@
+.nosotros {
+    background-color: $light;
+    color: $primary;
+    padding: 70px 40px;
+    text-align: center;
+
+    h1 {
+        font-style: normal;
+        font-family: 'Barlow', sans-serif;
+        font-size: 1.5rem;
+        padding-top: 6rem;
+    }
+
+    p {
+        font-style: normal;
+        font-family: 'Barlow', sans-serif;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    // __Inicio estilos desktop__
+    @media (min-width: 992px) {
+        margin-top: 1 rem;
+        padding-top: 3rem;
+    }
+}

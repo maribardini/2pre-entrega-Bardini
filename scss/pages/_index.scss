@@ -1,0 +1,222 @@
+/* Mobile First */
+
+.main__principal {
+    background-image: linear-gradient(180deg, rgba(245, 183, 136, 1) 35%, rgba(255, 255, 255, 1) 81%);
+    color: $primary;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__conteiner {
+        padding: 15px 15px;
+        padding-top: 40px;
+        width: 400px;
+        height: 60%;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 190px;
+        height: 10px;
+
+        &-paragraph {
+            font-style: normal;
+            font-family: 'Barlow', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 500;
+            line-height: 1.6;
+            text-align: center;
+            align-items: flex-start;
+            padding: 10px 0;
+        }
+
+        &-author {
+            font-style: normal;
+            font-size: 1rem;
+            font-weight: 400;
+            font-family: 'Barlow', sans-serif;
+        }
+    }
+
+    &__img {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 95%;
+        }
+    }
+}
+
+.about__us {
+    background-color: #ffffff;
+
+    &__conteiner {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+
+        &-video video {
+            width: 95%;
+            border-radius: 200%;
+            padding: 5px 5px;
+        }
+
+        h4 {
+            font-size: 0.9rem;
+            font-family: 'Barlow', sans-serif;
+            font-weight: 700;
+            line-height: 1.6;
+            color: $danger;
+            display: flex;
+            padding-top: 1rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            font-family: 'Barlow', sans-serif;
+            font-weight: 500;
+            text-align: center;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+    }
+}
+
+/* Fin estilos Mobile First */
+
+/* ___Inicio estilos tablet___ */
+
+@media (min-width: 768px) {
+
+    .main__principal {
+        height: 90vh;
+
+        &__img img {
+            width: 102%;
+        }
+    }
+
+    .about__us__wrapper p {
+        padding: 5px 5px;
+    }
+
+    .about__us__wrapper-video {
+        display: flex;
+        justify-content: center;
+
+        video {
+            width: 50%;
+            border-radius: 0;
+            padding: 70px 1px;
+        }
+    }
+}
+
+/* Fin estilos tablet */
+
+/* ___Inicio estilos desktop___ */
+
+@media (min-width: 992px) {
+
+    .main__principal__conteiner {
+        width: 96%;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 0 40px;
+    }
+
+    .main__principal__wrapper {
+        overflow: hidden;
+        width: 440px;
+        height: 350px;
+        align-items: flex-end;
+        animation-name: float;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 10s;
+
+        &-paragraph {
+            font-size: 2rem;
+            text-align: end;
+            padding: 40px 0;
+        }
+
+        &-author {
+            font-size: 1.5rem;
+            padding: 30px;
+        }
+    }
+
+    .main__principal__img img {
+        justify-self: center;
+        border-radius: 20px;
+        width: 750px;
+        height: 450px;
+    }
+
+    .about__us__conteiner {
+        display: grid;
+        grid-template-columns: 400px 800px;
+        justify-content: space-around;
+        align-items: end;
+    }
+
+    .about__us {
+        display: flex;
+        align-items: center;
+
+        &__wrapper {
+            overflow: hidden;
+            width: 90%;
+            height: 450px;
+            width: 800px;
+
+            h4 {
+                font-size: 20px;
+                margin-left: 3rem;
+            }
+
+            p {
+                font-size: 2rem;
+                margin-left: 4rem;
+            }
+
+            &-video video {
+                width: 95%;
+                border-radius: 200%;
+                padding: 15px px;
+            }
+        }
+    }
+
+    // __Inicio animaciones__
+    @keyframes float {
+
+        25% {
+            transform: translate(10px, -10px)
+        }
+
+        50% {
+            transform: translate(10px, 10px)
+        }
+
+        75% {
+            transform: translate(-10px, 10px)
+        }
+    }
+}
+
+/* Fin estilos desktop */
