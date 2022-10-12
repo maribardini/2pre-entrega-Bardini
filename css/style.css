@@ -8028,8 +8028,9 @@ textarea.form-control-lg {
   padding: 3%;
   z-index: 1; }
   .main__header img {
-    padding: 1rem;
-    width: 300px; }
+    padding: 0.5rem;
+    width: 300px;
+    padding-left: 3.5rem; }
   @media (min-width: 768px) {
     .main__header {
       flex-direction: row;
@@ -8121,6 +8122,7 @@ ul {
       font-weight: 400;
       font-family: 'Barlow', sans-serif; }
   .main__principal__img {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     display: flex;
     justify-content: center; }
     .main__principal__img img {
@@ -8148,7 +8150,7 @@ ul {
       font-family: 'Barlow', sans-serif;
       font-weight: 700;
       line-height: 1.6;
-      color: #dc3545;
+      color: #f4640c;
       display: flex;
       padding-top: 1rem; }
     .about__us__wrapper p {
@@ -8202,9 +8204,8 @@ ul {
       padding: 30px; }
   .main__principal__img img {
     justify-self: center;
-    border-radius: 20px;
-    width: 750px;
-    height: 450px; }
+    width: 800px;
+    height: 440px; }
   .about__us__conteiner {
     display: grid;
     grid-template-columns: 400px 800px;
@@ -8385,3 +8386,33 @@ textarea {
   @media (min-width: 992px) {
     textarea {
       padding-right: 0, 2rem; } }
+
+.padding-1 {
+  padding: 1rem; }
+
+.padding-2 {
+  padding: 2rem; }
+
+.padding-3 {
+  padding: 3rem; }
+
+.padding-4 {
+  padding: 4rem; }
+
+.padding-5 {
+  padding: 5rem; }
+
+.padding-6 {
+  padding: 6rem; }
+
+.padding-7 {
+  padding: 7rem; }
+
+.padding-8 {
+  padding: 8rem; }
+
+.padding-9 {
+  padding: 9rem; }
+
+.padding-10 {
+  padding: 10rem; }

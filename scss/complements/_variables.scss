@@ -1,0 +1,13 @@
+$orange: #f4640c;
+$brown: #893806;
+$orange-light: #f5b788;
+
+$primary: $brown;
+$secondary: $orange;
+$light: $orange-light;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "light": $light
+);
