@@ -1,14 +1,14 @@
 .contacto {
     background-color: $light;
     color: $primary;
-    padding: 120px 7px 20px;
+    padding: 120px 7px 20px 30px;
 
     h1 {
         font-style: normal;
         font-family: 'Barlow', sans-serif;
         font-size: 1.5rem;
         margin-top: 3rem;
-        text-align: center;
+        text-align: start;
 
         // __Inicio estilos tablet__
         @media (min-width: 768px) {

@@ -2,22 +2,21 @@
     background-color: $light;
     color: $primary;
     padding: 2rem;
-    text-align: center;
-    padding-right: 3.5rem;
+    text-align: start;
     font-style: normal;
     font-family: 'Barlow', sans-serif;
 
+    img {
+        width: 600px;
+    }
+
     h1 {
         font-size: 1.5rem;
-        display: flex;
-        justify-content: center;
         padding-top: 7rem;
     }
 
     h2 {
         font-size: 1.3rem;
-        display: flex;
-        justify-content: center;
         padding-top: 2rem;
         font-weight: 600;
     }
@@ -30,7 +29,6 @@
         p {
             font-size: 1rem;
             font-weight: 600;
-            margin-top: 2%;
         }
 
         p {
@@ -42,21 +40,30 @@
     // __Inicio estilos tablet__
 
     @media (min-width: 768px) {
-        padding-top: 7rem;
+        padding-top: 2rem;
+        
+        img {
+            margin-top: 4rem;
+            width: 300px;
+        }
     }
 
     // __Inicio estilos desktop__
     @media (min-width: 992px) {
         font-size: 1.5rem;
-        padding-top: 5px;
-
+        padding-top: 5rem;
+        
+        img {
+            margin-top: 1px;
+            width: 600px;
+        }
         h1 {
-            padding-top: 7rem;
+            padding-top: 2rem;
         }
 
         ul {
             padding-top: 0.3rem;
-            text-align: center;
+            text-align: start;
         }
     }
 }

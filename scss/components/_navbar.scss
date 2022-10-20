@@ -11,31 +11,25 @@
     z-index: 1;
 
     img {
-        padding: 0.5rem;
-        width: 300px;
-        padding-left: 3.5rem;
+        padding: 1rem;
+        width: 230px;
 
     }
 
     // __Inicio estilos tablet__
     @media (min-width: 768px) {
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
+        justify-content: space-between;
+        align-items: center;
+        height: 110px;
 
-        &__logo img {
-            padding: 0;
-            margin-left: 5px;
-        }
     }
 
     // __Inicio estilos desktop__
     @media (min-width: 992px) {
         height: 80px;
         display: grid;
-        grid-template-columns: 600px auto;
         grid-template-rows: 2px auto;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
     }
 }
