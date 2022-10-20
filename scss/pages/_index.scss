@@ -3,10 +3,11 @@
 .main__principal {
     background-image: linear-gradient(180deg, rgba(245, 183, 136, 1) 35%, rgba(255, 255, 255, 1) 81%);
     color: $primary;
-    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 90px;
 
     &__conteiner {
         padding: 15px 15px;
@@ -144,7 +145,6 @@
     .main__principal__wrapper {
         overflow: hidden;
         width: 440px;
-        height: 350px;
         align-items: flex-end;
         animation-name: float;
         animation-iteration-count: infinite;
@@ -165,7 +165,6 @@
 
     .main__principal__img img {
         justify-self: center;
-        height: 440px;
     }
 
     .about__us__conteiner {
@@ -182,7 +181,6 @@
         &__wrapper {
             overflow: hidden;
             width: 85%;
-            height: 550px;
 
             h4 {
                 font-size: 20px;

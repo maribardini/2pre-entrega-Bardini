@@ -8070,10 +8070,11 @@ ul {
 .main__principal {
   background-image: linear-gradient(180deg, #f5b788 35%, white 81%);
   color: #893806;
-  height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding-top: 90px; }
   .main__principal__conteiner {
     padding: 15px 15px;
     padding-top: 40px;
@@ -8166,7 +8167,6 @@ ul {
   .main__principal__wrapper {
     overflow: hidden;
     width: 440px;
-    height: 350px;
     align-items: flex-end;
     animation-name: float;
     animation-iteration-count: infinite;
@@ -8180,8 +8180,7 @@ ul {
       font-size: 1.5rem;
       padding: 30px; }
   .main__principal__img img {
-    justify-self: center;
-    height: 440px; }
+    justify-self: center; }
   .about__us__conteiner {
     display: grid;
     grid-template-columns: 400px 800px;
@@ -8192,8 +8191,7 @@ ul {
     align-items: center; }
     .about__us__wrapper {
       overflow: hidden;
-      width: 85%;
-      height: 550px; }
+      width: 85%; }
       .about__us__wrapper h4, .about__us__wrapper .h4 {
         font-size: 20px;
         margin-left: 3rem;
@@ -8245,7 +8243,8 @@ ul {
   font-style: normal;
   font-family: 'Barlow', sans-serif; }
   .clases img {
-    width: 600px; }
+    width: 300px;
+    margin-top: 3rem; }
   .clases h1, .clases .h1 {
     font-size: 1.5rem;
     padding-top: 7rem; }
