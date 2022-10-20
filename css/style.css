@@ -8123,7 +8123,7 @@ ul {
     .about__us__wrapper-video video {
       width: 95%;
       border-radius: 200%;
-      padding: 5px 5px; }
+      padding: 5px 5px 5px 5px; }
     .about__us__wrapper h4, .about__us__wrapper .h4 {
       font-size: 0.9rem;
       font-family: 'Barlow', sans-serif;
@@ -8143,10 +8143,8 @@ ul {
 /* Fin estilos Mobile First */
 /* ___Inicio estilos tablet___ */
 @media (min-width: 768px) {
-  .main__principal {
-    height: 90vh; }
-    .main__principal__img img {
-      width: 102%; }
+  .main__principal__img img {
+    width: 102%; }
   .about__us__wrapper p {
     padding: 5px 5px; }
   .about__us__wrapper-video {
@@ -8206,7 +8204,7 @@ ul {
       .about__us__wrapper-video video {
         width: 95%;
         border-radius: 200%;
-        padding: 15px px; }
+        padding: 5px 5px; }
   @keyframes float {
     25% {
       transform: translate(10px, -10px); }

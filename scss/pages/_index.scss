@@ -75,7 +75,7 @@
         &-video video {
             width: 95%;
             border-radius: 200%;
-            padding: 5px 5px;
+            padding: 5px 5px 5px 5px;
         }
 
         h4 {
@@ -106,7 +106,6 @@
 @media (min-width: 768px) {
 
     .main__principal {
-        height: 90vh;
 
         &__img img {
             width: 102%;
@@ -199,7 +198,7 @@
             &-video video {
                 width: 95%;
                 border-radius: 200%;
-                padding: 15px px;
+                padding: 5px 5px;
             }
         }
     }
