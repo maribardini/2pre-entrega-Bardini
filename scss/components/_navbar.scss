@@ -14,6 +14,7 @@
         padding: 0.5rem;
         width: 300px;
         padding-left: 3.5rem;
+
     }
 
     // __Inicio estilos tablet__
@@ -23,7 +24,8 @@
         align-items: flex-start;
 
         &__logo img {
-            padding: 0.5rem;
+            padding: 0;
+            margin-left: 5px;
         }
     }
 
@@ -31,13 +33,9 @@
     @media (min-width: 992px) {
         height: 80px;
         display: grid;
-        grid-template-columns: 400px auto;
-        grid-template-rows: 3px auto;
+        grid-template-columns: 600px auto;
+        grid-template-rows: 2px auto;
         justify-content: space-evenly;
         align-items: center;
-
-        &__logo {
-            margin-left: -40%;
-        }
     }
 }

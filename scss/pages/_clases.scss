@@ -4,36 +4,40 @@
     padding: 2rem;
     text-align: center;
     padding-right: 3.5rem;
+    font-style: normal;
+    font-family: 'Barlow', sans-serif;
 
     h1 {
-        font-style: normal;
-        font-family: 'Barlow', sans-serif;
         font-size: 1.5rem;
         display: flex;
         justify-content: center;
-        padding-top: 9rem;
+        padding-top: 7rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        font-weight: 600;
     }
 
     ul {
-        font-style: normal;
-        font-family: 'Barlow', sans-serif;
         font-size: 1rem;
         padding-top: 1rem;
 
         li,
         p {
-            font-style: normal;
-            font-family: 'Barlow', sans-serif;
             font-size: 1rem;
             font-weight: 600;
-            margin-top: 3%;
+            margin-top: 2%;
         }
 
         p {
             font-weight: 400;
         }
-
     }
+
 
     // __Inicio estilos tablet__
 

@@ -8037,33 +8037,29 @@ textarea.form-control-lg {
       justify-content: center;
       align-items: flex-start; }
       .main__header__logo img {
-        padding: 0.5rem; } }
+        padding: 0;
+        margin-left: 5px; } }
   @media (min-width: 992px) {
     .main__header {
       height: 80px;
       display: grid;
-      grid-template-columns: 400px auto;
-      grid-template-rows: 3px auto;
+      grid-template-columns: 600px auto;
+      grid-template-rows: 2px auto;
       justify-content: space-evenly;
-      align-items: center; }
-      .main__header__logo {
-        margin-left: -40%; } }
+      align-items: center; } }
 
 .footer {
   background-color: #E4E8E1;
   font-style: normal;
   font-family: 'Barlow', sans-serif;
-  font-size: 1rem;
-  padding: 15px; }
+  font-size: 1rem; }
   .footer div {
     padding: 3px;
     display: flex;
     justify-content: center; }
   @media (min-width: 992px) {
     .footer {
-      font-size: 1.5rem; }
-      .footer div {
-        padding: 3px 25px 3px 25px; } }
+      font-size: 1.5rem; } }
 
 * {
   margin: 0;
@@ -8126,7 +8122,8 @@ ul {
     display: flex;
     justify-content: center; }
     .main__principal__img img {
-      width: 95%; }
+      width: 100%;
+      padding: 0; }
 
 .about__us {
   background-color: #ffffff; }
@@ -8182,7 +8179,7 @@ ul {
 /* ___Inicio estilos desktop___ */
 @media (min-width: 992px) {
   .main__principal__conteiner {
-    width: 96%;
+    width: 100vw;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 0 40px; }
@@ -8204,7 +8201,6 @@ ul {
       padding: 30px; }
   .main__principal__img img {
     justify-self: center;
-    width: 800px;
     height: 440px; }
   .about__us__conteiner {
     display: grid;
@@ -8216,12 +8212,12 @@ ul {
     align-items: center; }
     .about__us__wrapper {
       overflow: hidden;
-      width: 90%;
-      height: 450px;
-      width: 800px; }
+      width: 85%;
+      height: 550px; }
       .about__us__wrapper h4, .about__us__wrapper .h4 {
         font-size: 20px;
-        margin-left: 3rem; }
+        margin-left: 3rem;
+        margin-top: 6rem; }
       .about__us__wrapper p {
         font-size: 2rem;
         margin-left: 4rem; }
@@ -8241,48 +8237,53 @@ ul {
 .nosotros {
   background-color: #f5b788;
   color: #893806;
-  padding: 70px 40px;
-  text-align: center; }
+  padding: 70px 80px;
+  text-align: center;
+  font-style: normal;
+  font-family: 'Barlow', sans-serif; }
   .nosotros h1, .nosotros .h1 {
-    font-style: normal;
-    font-family: 'Barlow', sans-serif;
-    font-size: 1.5rem;
-    padding-top: 6rem; }
+    padding-top: 6rem;
+    font-size: 1.5rem; }
   .nosotros p {
-    font-style: normal;
-    font-family: 'Barlow', sans-serif;
-    font-size: 1.5rem;
-    margin-top: 2rem; }
+    padding-top: 0.5rem;
+    line-height: 45px;
+    font-size: 1.2rem; }
+  .nosotros h2, .nosotros .h2 {
+    padding-top: 2rem;
+    font-size: 1.3rem; }
+  .nosotros h3, .nosotros .h3 {
+    padding-top: 1rem; }
   @media (min-width: 992px) {
     .nosotros {
-      margin-top: 1 rem;
-      padding-top: 3rem; } }
+      padding-top: 1rem; } }
 
 .clases {
   background-color: #f5b788;
   color: #893806;
   padding: 2rem;
   text-align: center;
-  padding-right: 3.5rem; }
+  padding-right: 3.5rem;
+  font-style: normal;
+  font-family: 'Barlow', sans-serif; }
   .clases h1, .clases .h1 {
-    font-style: normal;
-    font-family: 'Barlow', sans-serif;
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
-    padding-top: 9rem; }
+    padding-top: 7rem; }
+  .clases h2, .clases .h2 {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    font-weight: 600; }
   .clases ul {
-    font-style: normal;
-    font-family: 'Barlow', sans-serif;
     font-size: 1rem;
     padding-top: 1rem; }
     .clases ul li,
     .clases ul p {
-      font-style: normal;
-      font-family: 'Barlow', sans-serif;
       font-size: 1rem;
       font-weight: 600;
-      margin-top: 3%; }
+      margin-top: 2%; }
     .clases ul p {
       font-weight: 400; }
   @media (min-width: 768px) {

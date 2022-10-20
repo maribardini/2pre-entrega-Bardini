@@ -22,6 +22,7 @@
         padding-bottom: 190px;
         height: 10px;
 
+
         &-paragraph {
             font-style: normal;
             font-family: 'Barlow', sans-serif;
@@ -47,7 +48,9 @@
         justify-content: center;
 
         img {
-            width: 95%;
+            width: 100%;
+            padding: 0;
+            
         }
     }
 }
@@ -133,7 +136,7 @@
 @media (min-width: 992px) {
 
     .main__principal__conteiner {
-        width: 96%;
+        width: 100vw;
         display: grid;
         grid-template-columns: 1fr 2fr;
         gap: 0 40px;
@@ -163,7 +166,6 @@
 
     .main__principal__img img {
         justify-self: center;
-        width: 800px;
         height: 440px;
     }
 
@@ -180,13 +182,13 @@
 
         &__wrapper {
             overflow: hidden;
-            width: 90%;
-            height: 450px;
-            width: 800px;
+            width: 85%;
+            height: 550px;
 
             h4 {
                 font-size: 20px;
                 margin-left: 3rem;
+                margin-top: 6rem;
             }
 
             p {
