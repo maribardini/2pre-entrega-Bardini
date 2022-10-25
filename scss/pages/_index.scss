@@ -1,7 +1,7 @@
 /* Mobile First */
 
 .main__principal {
-    background-image: linear-gradient(180deg, rgba(245, 183, 136, 1) 35%, rgba(255, 255, 255, 1) 81%);
+    background-image: linear-gradient(180deg, $light 35%, $gray 81%);
     color: $primary;
     width: 100vw;
     display: flex;
@@ -51,13 +51,13 @@
         img {
             width: 100%;
             padding: 0;
-            
+
         }
     }
 }
 
 .about__us {
-    background-color: #ffffff;
+    background-color: $gray;
 
     &__conteiner {
         width: 100vw;
@@ -178,44 +178,43 @@
         display: flex;
         align-items: center;
 
-        &__wrapper {
-            overflow: hidden;
-            width: 85%;
+            &__wrapper {
+                overflow: hidden;
+                width: 85%;
 
-            h4 {
-                font-size: 20px;
-                margin-left: 3rem;
-                margin-top: 6rem;
+                h4 {
+                    font-size: 20px;
+                    margin-left: 3rem;
+                    margin-top: 6rem;
+                }
+
+                p {
+                    font-size: 2rem;
+                    margin-left: 4rem;
+                }
+
+                &-video video {
+                    width: 95%;
+                    border-radius: 200%;
+                    padding: 5px 5px;
+                }
+            }
+        }
+
+        // __Inicio animaciones__
+        @keyframes float {
+
+            25% {
+                transform: translate(10px, -10px)
             }
 
-            p {
-                font-size: 2rem;
-                margin-left: 4rem;
+            50% {
+                transform: translate(10px, 10px)
             }
 
-            &-video video {
-                width: 95%;
-                border-radius: 200%;
-                padding: 5px 5px;
+            75% {
+                transform: translate(-10px, 10px)
             }
         }
     }
-
-    // __Inicio animaciones__
-    @keyframes float {
-
-        25% {
-            transform: translate(10px, -10px)
-        }
-
-        50% {
-            transform: translate(10px, 10px)
-        }
-
-        75% {
-            transform: translate(-10px, 10px)
-        }
-    }
-}
-
-/* Fin estilos desktop */
+    // __fin de estilos desktop__

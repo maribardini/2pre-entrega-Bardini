@@ -25,7 +25,7 @@
 .form {
     margin: 0 auto;
     width: 300px;
-    background-color: #fcfbfa;
+    background-color: $gray;
     padding: 20px 30px 20px 20px;
     color: $primary;
     border-radius: 10px;
@@ -36,7 +36,7 @@
 
     &__input {
         border-radius: 5px;
-        border-color: #cecece;
+        border-color: $gray-600;
         border-width: 0.5px;
         padding: 5px;
         margin-bottom: 8px;
@@ -66,7 +66,7 @@
 
 textarea {
     border-radius: 5px;
-    border-color: #cecece;
+    border-color: $gray-600;
 
     // __Inicio estilos desktop__
     @media (min-width: 992px) {
